@@ -1,9 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# 
-
-# In[55]:
+#Next steps
+#start Buliding in logic 
+#see the Paper notes 
 
 
 import cv2
@@ -33,12 +30,10 @@ while(1):
     #This is important to prevent errors when a clip finishes (no more frames detected).
     #if a frame is NOT detected we break from the loop and finish. 
     ret, frame = capture.read()
-
 	#  Check if a current frame actually exist
     if not ret:
         break
-
-#increment the frame by one.            
+    #increment the frame by one.            
     frameCount += 1
 	# Resize the frame (50% on X and Y)
     #makes more manageable
