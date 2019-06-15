@@ -1,7 +1,7 @@
 #Next steps
 #start Buliding in logic 
 #see the Paper notes
-#Make Change->Save->TickToCommitt->Push
+
 
 
 import cv2
@@ -9,7 +9,7 @@ import numpy as np
 import sys
 
 #Parameters
-history = 50
+history = 25
 threshold = 100
 shadow = False
 area = 20
